@@ -3,7 +3,11 @@ layout: default
 ---
 
 <div class="container">
-  <h1 class="site-title">{{ site.title }}</h1>
+  <div class="cover">
+    <img src="{{ '/assets/images/cover.jpg' | relative_url }}" alt="{{ site.title }}">
+  </div>
+
+  <p class="tagline">{{ site.description }}</p>
 
   <section class="links">
     {% for link in site.links %}
