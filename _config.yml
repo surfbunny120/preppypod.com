@@ -1,0 +1,21 @@
+title: "Preppy Pod"
+description: ""
+url: "https://preppypod.com"
+baseurl: ""
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-seo-tag
+
+# Links
+links:
+  - title: "Apple"
+    url: "#"
+  - title: "Spotify"
+    url: "#"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
