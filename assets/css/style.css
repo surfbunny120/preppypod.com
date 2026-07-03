@@ -44,12 +44,11 @@ body {
 /* Cover art */
 .cover {
   margin-bottom: 24px;
-  text-align: center;
 }
 
 .cover img {
   max-width: 100%;
-  width: 320px;
+  width: 220px;
   height: auto;
   border-radius: 8px;
 }
@@ -61,7 +60,6 @@ body {
   font-weight: 500;
   margin-bottom: 40px;
   line-height: 1.7;
-  text-align: center;
 }
 
 /* Section headings */
